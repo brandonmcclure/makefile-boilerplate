@@ -20,7 +20,7 @@ install:
 
 package:
 	@If(-Not (Test-Path bin)){New-Item bin -itemType Directory -ErrorAction Ignore | Out-Null}
-	@docker run --rm -v $${PWD}:/work bmcclure/vsce package -o bin/$(ExtensionName)-$(version).vsix
+	@docker run --rm -v $${PWD}:/work bmcclure89/vsce package -o bin/$(ExtensionName)-$(version).vsix
 
 clean:
 	@./build/clean.ps1 -ExtensionName $(ExtensionName) -Publisher $(Publisher) -version $(version)
