@@ -7,7 +7,7 @@ endif
 
 ExtensionName := makefile-boilerplate
 Publisher := Alpha1337k
-version := 0.1.2
+version := 0.1.8
 
 .PHONY: clean build 
 all: build

@@ -2,7 +2,7 @@
   "name": "makefile-boilerplate",
   "displayName": "Makefile boilerplate",
   "description": "Create an boilerplate Makefile",
-  "version": "0.1.2",
+  "version": "0.1.8",
   "publisher": "Alpha1337k",
   "icon": "logo.png",
   "repository": {
@@ -39,6 +39,10 @@
       },
       {
         "path": "./snippets/make_docker-compose.code-snippets",
+        "language": "makefile"
+      },
+      {
+        "path": "./snippets/make_helm_charts.code-snippets",
         "language": "makefile"
       }
     ]
